@@ -25,7 +25,7 @@ const bot = createBot<void>({
 });
 
 async function gatherAllArticles(urls: string[]): Promise<FeedEntry[]> {
-  let allEntries: FeedEntry[] = [];
+  const allEntries: FeedEntry[] = [];
 
   for (const url of urls) {
     try {
