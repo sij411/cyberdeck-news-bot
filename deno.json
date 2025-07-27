@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "@fedify/botkit": "jsr:@fedify/botkit@^0.2.1"
+  },
+  "unstable": ["temporal"]
+}
